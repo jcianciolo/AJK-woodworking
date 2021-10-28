@@ -25,11 +25,11 @@ module.exports = {
       __key: "pages",
     },
     {
-      resolve: "gatsby-source-filesystem",
+      resolve: `gatsby-source-filesystem`,
       options: {
         name: `blog`,
         path: `${__dirname}/blog/`,
-      }
+      },
     },
   "gatsby-plugin-mdx",
   ],
